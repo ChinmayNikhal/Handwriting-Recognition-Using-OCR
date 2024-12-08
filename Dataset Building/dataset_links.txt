@@ -1,0 +1,12 @@
+Link 1 : https://www.kaggle.com/datasets/lopalp/alphanum
+Link 1 : https://www.kaggle.com/datasets/dhruvildave/english-handwritten-characters-dataset
+Link 3 : https://www.kaggle.com/datasets/syedjaferk/azaz-english-alphabets-dataset/data
+
+
+All the folders from the above had them renamed corresponding to their ASCII values.
+All contents of the folders were merged, then the function in the dataset_checking_tools
+was used to check and resize all images to 28x28.
+Finally all these images were written to an "output.csv" with the format being,
+ascii_value, flattened_array_of_the_image_in_matrix_form
+
+Individual counts of each character are written in image_count.csv
