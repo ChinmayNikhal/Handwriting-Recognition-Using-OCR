@@ -96,5 +96,5 @@ def sort_the_csv_file(csv_file):
 # Example usage:
 
 # sort_the_csv_file("output.csv")
-# view_image_from_csv("C:\\Users\\Chinu\\Coding Programs\\OCR Project 1\\First Test Build\\A_Z Handwritten Data.csv", 0)
+# view_image_from_csv("output.csv", 0)
 view_image_from_csv("output.csv", 63501)
