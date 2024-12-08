@@ -135,5 +135,5 @@ def images_to_csv(folder_path, csv_path):
         print(f"Error writing to CSV: {e}")
 
 # Example usage:
-# resize_images("Base edited")
-images_to_csv("Base edited", "output.csv")
+# resize_images("path_to_the_images_main_folder")
+images_to_csv("path_to_the_images_main_folder", "output.csv")
